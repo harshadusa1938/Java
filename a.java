@@ -1,19 +1,37 @@
-package com.general;
+package sum;
 
-public class a {
+class _A 
+{
 
-	public static void main(String[] args)
+	public _A()
 	{
-		// TODO Auto-generated method stub
-
+		System.out.println(1);
 		
-		
-		int total = 0;
-		int i =0;
-
-		for ( i = 2; i < 5; i++ );
-		      total += i;
-		System.out.println( total );
 	}
+	
+}
+class _B extends _A
+{
+	public _B()
+	{
+		System.out.println(2);
+		
+	}
+}
+class _C extends _B
+{
+	public _C()
+	{
+		System.out.println(3);
+		
+	}
+}
 
+public class a
+{
+public static void main(String[] args)
+{
+	_C c1=new _C();
+	
+}
 }
