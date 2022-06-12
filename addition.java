@@ -19,10 +19,6 @@ public class addition {
     c=a*b;
     System.out.println("Multiplication: " + c);
 
-  
   }
   
- 
-  
 }
-
